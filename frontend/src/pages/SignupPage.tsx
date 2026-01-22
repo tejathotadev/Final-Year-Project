@@ -44,7 +44,7 @@ const SignupPage = ()=> {
       email,
       password,
       options: {
-        emailRedirectTo: `${window.location.origin}/login`,
+        emailRedirectTo: "https://steganography-final-year.vercel.app/login",
       },
     });
 
