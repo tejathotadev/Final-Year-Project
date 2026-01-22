@@ -223,7 +223,7 @@ const MessageView = ({ conversation, onBack }: MessageViewProps) => {
 
       // 🔐 Call backend decode
       const res = await fetch(
-        "http://localhost:8000/stego/text/character-level/decode",
+        "https://final-year-project-j4xl.onrender.com/stego/text/character-level/decode",
         {
           method: "POST",
           body: (() => {

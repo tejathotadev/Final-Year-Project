@@ -25,7 +25,7 @@ interface Props {
 
 /* ================= CONFIG ================= */
 
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = "https://final-year-project-j4xl.onrender.com";
 
 const TEXT_STEGO_ENDPOINTS = {
   character: "/stego/text/character-level/encode",
